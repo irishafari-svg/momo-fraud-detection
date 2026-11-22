@@ -18,7 +18,22 @@ Status: In progress. Building in Google Colab as part of my Master of AI and App
 
 ## Results
 
-To be added after Day 5.
+## Results
+
+Test set: 4000 transactions, 38 frauds.
+
+Confusion matrix:
+- Legit correctly called legit: 3962
+- Legit wrongly called fraud: 0
+- Fraud missed: 19
+- Fraud correctly caught: 19
+
+Fraud precision: 1.00, Fraud recall: 0.50, Fraud F1: 0.67
+
+What I found:
+1. Fraud is concentrated in TRANSFER at 2.07% and CASH_OUT at 1.87%.
+2. Amount alone does not catch fraud. The top signals are sender_emptied at 26.7% and newbalanceOrig at 25.3%. Fraud empties the sender account.
+3. Model has perfect precision with zero false alarms, but only catches 50% of frauds. Next step is to improve recall.
 ![Fraud rate by transaction type](fraud_rate.png)
 
 ## Author
