@@ -19,6 +19,7 @@ Status: In progress. Building in Google Colab as part of my Master of AI and App
 ## Results
 
 To be added after Day 5.
+![Fraud rate by transaction type](fraud_rate.png)
 
 ## Author
 
