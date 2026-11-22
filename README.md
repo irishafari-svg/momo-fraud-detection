@@ -16,7 +16,6 @@ Status: In progress. Building in Google Colab as part of my Master of AI and App
 4. Evaluate with confusion matrix and feature importance
 5. Share results and chart here
 
-## Results
 
 ## Results
 
