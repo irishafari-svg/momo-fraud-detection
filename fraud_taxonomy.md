@@ -33,12 +33,14 @@ Marketing: TikTok
 Payment: MTN MoMo
 Evidence: Fake overlay on real NLA results table, pen pointing at numbers
 
-## 5. MoMo Unlock / Prize
-Promise: Unlock account or A fake agent calls you to enter your Momo pin to reverse a transaction
-Advance fee: Fee to unlock
-Marketing: SMS, WhatsApp, Direct Call
+## 5. MoMo Wrong Transfer / Fake Agent
+Promise: None, it is not a prize. It is a mistake.
+Mechanism: Scammer sends fake SMS saying money was mistakenly sent to your MoMo.
+Then fake agent calls and says enter your PIN to reverse it.
+Then a pop-up appears asking for your PIN. If you enter it, you approve a withdrawal from your own account and all your money is gone.
+Marketing: SMS + Direct Call + Pop-up prompt
 Payment: MTN MoMo
-Evidence: Fake MTN message
+Evidence: Fake MTN SMS that looks real, but no money in balance if you check with *170#
 
 ## Anonymization Rule
 No names, no phone numbers, no wallet addresses, no personal data in public work.
