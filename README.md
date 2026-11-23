@@ -2,7 +2,7 @@
 
 Problem: Mobile money fraud causes losses for users, telcos, and banks in Ghana.
 
-Data: Data: Synthetic MoMo-style transactions, 20,000 rows, PaySim-style. Used due to data bundle limits, same columns and fraud patterns as PaySim.
+Data: Synthetic MoMo-style transactions, 20,000 rows, PaySim-style. Used due to data bundle limits, same columns and fraud patterns as PaySim.
 
 Model: Random Forest classifier to flag fraud. Focus on recall for fraud, not just accuracy.
 
