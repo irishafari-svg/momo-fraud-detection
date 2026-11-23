@@ -35,6 +35,20 @@ What I found:
 3. Model has perfect precision with zero false alarms, but only catches 50% of frauds. Next step is to improve recall.
 ![Fraud rate by transaction type](fraud_rate.png)
 
+## Model v2 - With Taxonomy Features
+
+Features: amount, is_advance_fee_amount (5, 100, 300, 500 from taxonomy)
+
+Results on synthetic test set (200 transactions):
+- Fraud: Precision 0.98, Recall 1.00, F1 0.99
+- Legit: Precision 1.00, Recall 0.99, F1 1.00
+- Accuracy: 0.99
+
+Improvement: Recall from 0.50 in v1 to 1.00 in v2.
+
+Limitation: Synthetic data. Real-world recall will be lower. Needs validation on real anonymized data.
+Taxonomy file: fraud_taxonomy.md
+
 ## Author
 
 Irish Mintah-Afari | GEM Alpine Business School | Batch 7
